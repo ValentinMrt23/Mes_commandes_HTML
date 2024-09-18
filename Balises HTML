@@ -1,0 +1,138 @@
+1. Structure du document
+
+<!DOCTYPE> :    Déclare le type de document, spécifiquement HTML5.
+<html> :        Élément racine d’un document HTML.
+<head> :        Contient des méta-informations (titre, encodage, etc.) sur la page.
+<title> :       Définit le titre du document, qui apparaît dans l'onglet du navigateur.
+<meta> :        Spécifie les métadonnées comme l'encodage des caractères, la description, etc.
+<link> :        Lie des ressources externes (comme des feuilles de style CSS).
+<style> :       Contient des styles CSS internes.
+<body> :        Contient le contenu principal de la page.
+
+
+
+2. Texte et en-têtes
+
+<h1> à <h6> :       En-têtes, de <h1> (plus grand) à <h6> (plus petit).
+<p> :               Définit un paragraphe de texte.
+<br> :              Insère un saut de ligne.
+<hr> :              Insère une ligne horizontale pour la séparation de contenu.
+<blockquote> :      Utilisé pour citer un long texte.
+<pre> :             Définit du texte préformaté, qui conserve les espaces et les retours à la ligne.
+
+
+
+3. Mise en forme du texte
+
+<b> :           Rend le texte en gras.
+<strong> :      Rend le texte en gras avec une importance sémantique.
+<i> :           Rend le texte en italique.
+<em> :          Met le texte en italique pour indiquer une emphase sémantique.
+<mark> :        Met en surbrillance du texte.
+<small> :       Définit du texte de taille réduite.
+<sub> :         Définit du texte en indice.
+<sup> :         Définit du texte en exposant.
+<ins> :         Indique que le texte a été inséré (généralement souligné).
+<del> :         Indique que le texte a été supprimé (généralement barré).
+
+
+
+4. Liens et navigation
+
+<a> :       Définit un lien hypertexte. L’attribut href spécifie la destination du lien.
+<nav> :     Représente une section de navigation.
+<ul> :      Définit une liste non ordonnée (liste à puces).
+<ol> :      Définit une liste ordonnée (liste numérotée).
+<li> :      Définit un élément dans une liste (ul ou ol).
+<dl> :      Définit une liste de définitions.
+<dt> :      Définit un terme dans une liste de définitions.
+<dd> :      Définit la description d’un terme dans une liste de définitions.
+
+
+
+5. Images et médias
+
+<img> :             Intègre une image. L’attribut src spécifie l’URL de l’image.
+<figure> :          Regroupe des contenus illustratifs comme des images.
+<figcaption> :      Légende associée à un élément <figure>.
+<audio> :           Intègre un fichier audio.
+<video> :           Intègre un fichier vidéo.
+<source> :          Définit des sources alternatives pour des médias (audio ou vidéo).
+<embed> :           Intègre du contenu externe interactif (comme des fichiers Flash).
+<iframe> :          Intègre une autre page HTML dans la page courante.
+
+
+
+6. Formulaires
+
+<form> :        Définit un formulaire pour la saisie de données utilisateur.
+<input> :       Définit un champ de saisie (texte, email, mot de passe, etc.).
+<textarea> :    Définit une zone de texte multiligne.
+<button> :      Définit un bouton interactif.
+<select> :      Définit un menu déroulant.
+<option> :      Définit une option dans un menu déroulant.
+<label> :       Associe une étiquette descriptive à un élément de formulaire.
+<fieldset> :    Regroupe des éléments de formulaire ensemble.
+<legend> :      Définit une légende pour un élément <fieldset>.
+<datalist> :    Définit une liste de suggestions pour les champs <input>.
+<output> :      Représente le résultat d’un calcul ou d’une action utilisateur.
+
+
+
+7. Tableaux
+
+<table> :       Définit un tableau.
+<tr> :          Définit une ligne de tableau.
+<th> :          Définit une cellule d’en-tête de tableau.
+<td> :          Définit une cellule de données dans un tableau.
+<thead> :       Regroupe les en-têtes du tableau.
+<tbody> :       Regroupe le corps du tableau.
+<tfoot> :       Regroupe le pied du tableau.
+<caption> :     Définit une légende pour un tableau.
+<col> :         Spécifie des propriétés pour une colonne.
+<colgroup> :    Regroupe plusieurs éléments <col> pour des styles ou attributs communs.
+
+
+
+8. Sémantique et mise en page
+
+<header> :      Définit l’en-tête d’une page ou d’une section.
+<footer> :      Définit le pied de page d’une page ou d’une section.
+<section> :     Définit une section générique d’un document.
+<article> :     Définit un contenu autonome (article de blog, news).
+<aside> :       Contenu secondaire ou complémentaire au contenu principal.
+<main> :        Définit le contenu principal du document.
+<div> :         Définit une division ou un conteneur générique.
+<span> :        Définit un conteneur en ligne pour une partie du texte.
+<address> :     Définit des informations de contact (adresse).
+
+
+
+9. Balises interactives
+
+<details> :     Définit un contrôle qui permet à l'utilisateur de basculer entre des détails cachés et visibles.
+<summary> :     Définit un résumé visible pour l’élément <details>.
+<dialog> :      Définit une boîte de dialogue interactive.
+<menu> :        Définit un menu de commande ou de contexte.
+<menuitem> :    Définit un élément interactif dans un menu.
+
+
+
+10. Scripts et ressources
+
+<script> :      Intègre du code JavaScript ou lie un fichier JavaScript externe.
+<noscript> :    Définit un contenu alternatif pour les navigateurs sans JavaScript activé.
+<canvas> :      Définit une zone graphique pour dessiner avec des scripts (comme le dessin 2D).
+<svg> :         Définit un contenu graphique vectoriel en ligne (images SVG).
+<map> :         Définit une image cliquable.
+<area> :        Définit une zone dans une image cliquable.
+
+
+
+11. Attributs globaux
+
+id :        Définit un identifiant unique pour un élément.
+class :     Associe une ou plusieurs classes CSS à un élément.
+style :     Applique des styles CSS directement sur un élément.
+title :     Fournit des informations supplémentaires qui apparaissent comme infobulle.
+data-* :    Attributs personnalisés utilisés pour stocker des données privées dans l’élément.

@@ -1,0 +1,144 @@
+1. Couleurs et arrière-plans
+
+color :                     Définit la couleur du texte.
+background-color :          Définit la couleur de fond d'un élément.
+background-image :          Ajoute une image en fond d'un élément.
+background-size :           Ajuste la taille de l’image de fond.
+background-position :       Positionne l’image de fond.
+background-repeat :         Définit si l’image de fond doit se répéter.
+background-attachment :     Définit si l’image de fond est fixe ou défile avec la page.
+opacity :                   Définit l'opacité de l'élément.
+background-clip :           Définit jusqu’où le fond s’étend, incluant ou excluant la bordure.
+
+
+
+2. Texte et police
+
+font-family :       Définit la police utilisée pour le texte.
+font-size :         Définit la taille de la police.
+font-weight :       Définit l'épaisseur du texte (gras).
+font-style :        Définit le style de la police (normal, italique).
+font-variant :      Utilisé pour afficher des variantes de police (petites capitales).
+font-stretch :      Définit l'étirement de la police.
+line-height :       Définit l’espacement entre les lignes de texte.
+letter-spacing :    Définit l’espacement entre les lettres.
+word-spacing :      Définit l’espacement entre les mots.
+text-align :        Aligne le texte (gauche, droite, centré, justifié).
+text-transform :    Contrôle la capitalisation du texte (majuscule, minuscule, capitalisation).
+text-decoration :   Ajoute des décorations comme le soulignement ou le barré.
+text-indent :       Définit l'indentation de la première ligne.
+text-shadow :       Ajoute une ombre au texte.
+white-space :       Gère comment les espaces sont traités (normal, nowrap, pre).
+direction :         Définit la direction du texte (gauche à droite ou droite à gauche).
+unicode-bidi :      Utilisé pour le texte en langues bidirectionnelles (comme l'arabe et l'hébreu).
+
+
+
+3. Mise en page et boîte (Box Model)
+
+width :             Définit la largeur d’un élément.
+height :            Définit la hauteur d’un élément.
+max-width :         Définit la largeur maximale d’un élément.
+min-width :         Définit la largeur minimale d’un élément.
+max-height :        Définit la hauteur maximale d’un élément.
+min-height :        Définit la hauteur minimale d’un élément.
+margin :            Définit l’espace extérieur autour d’un élément (général ou par côté).
+padding :           Définit l’espace intérieur d’un élément, entre le contenu et la bordure.
+border :            Définit la bordure autour d'un élément (largeur, style, couleur).
+border-radius :     Arrondit les coins d'un élément.
+box-sizing :        Détermine si les bordures et le padding sont inclus dans la taille de l'élément.
+box-shadow :        Ajoute une ombre autour d’un élément.
+outline :           Définit un contour autour d’un élément, en dehors des bordures.
+
+
+
+4. Flexbox
+
+display: flex :     Active le modèle Flexbox pour une mise en page flexible.
+flex-direction :    Définit la direction des éléments (ligne, colonne).
+flex-wrap :         Définit si les éléments doivent se répartir sur plusieurs lignes.
+justify-content :   Aligne les éléments horizontalement dans un conteneur flex.
+align-items :       Aligne les éléments verticalement dans un conteneur flex.
+align-content :     Contrôle l'espacement des lignes dans un conteneur flex.
+flex-grow :         Permet à un élément de grandir dans un conteneur flex.
+flex-shrink :       Permet à un élément de rétrécir dans un conteneur flex.
+flex-basis :        Définit la taille de base d’un élément flex avant qu’il ne grandisse ou ne rétrécisse.
+align-self :        Aligne individuellement un élément flex dans le conteneur.
+order :             Définit l’ordre dans lequel les éléments sont disposés dans un conteneur flex.
+gap :               Définit l’espacement entre les éléments dans un conteneur flex (ou grille).
+
+
+
+5. Grille (Grid)
+
+display: grid :             Active le modèle de mise en page en grille.
+grid-template-columns :     Définit le nombre et la largeur des colonnes.
+grid-template-rows :        Définit le nombre et la hauteur des lignes.
+grid-template-areas :       Nomme des zones de la grille pour faciliter leur placement.
+grid-auto-columns :         Définit la taille des colonnes générées automatiquement.
+grid-auto-rows :            Définit la taille des lignes générées automatiquement.
+grid-auto-flow :            Définit la direction dans laquelle les éléments sont automatiquement placés dans la grille.
+grid-column-gap :           Définit l’espacement entre les colonnes.
+grid-row-gap :              Définit l’espacement entre les lignes.
+grid-gap :                  Définit l’espacement entre les colonnes et les lignes.
+grid-column :               Définit la position et la taille d'un élément sur les colonnes.
+grid-row :                  Définit la position et la taille d'un élément sur les lignes.
+grid-area :                 Permet de positionner un élément dans une zone nommée.
+justify-items :             Définit comment les éléments sont alignés dans chaque cellule de la grille.
+align-items :               Aligne les éléments dans chaque cellule sur l’axe vertical.
+justify-content :           Aligne l'ensemble de la grille horizontalement dans son conteneur.
+align-content :             Aligne l'ensemble de la grille verticalement dans son conteneur.
+
+
+
+6. Positionnement
+
+position :                      Définit la méthode de positionnement d’un élément (static, relative, absolute, fixed, sticky).
+top, right, bottom, left :      Positionne un élément par rapport à son conteneur.
+z-index :                       Définit l'ordre de superposition des éléments.
+float :                         Définit si un élément doit être aligné à gauche ou à droite.
+clear :                         Empêche les éléments d'être positionnés autour d'éléments flottants.
+overflow :                      Contrôle ce qui se passe lorsque le contenu dépasse les limites d'un élément.
+clip :                          Découpe un élément visible selon une forme donnée.
+visibility :                    Contrôle la visibilité d'un élément (visible ou caché).
+
+
+
+7. Transitions et animations
+
+transition :                    Applique des transitions douces entre les changements de styles.
+transition-property :           Définit quelles propriétés CSS doivent être animées.
+transition-duration :           Définit la durée de la transition.
+transition-timing-function :    Définit le rythme de l’animation (ex: ease, linear).
+transition-delay :              Définit le délai avant le début de la transition.
+animation :                     Définit une animation via des keyframes.
+animation-name :                Nom de l’animation à utiliser.
+animation-duration :            Durée d'une itération de l'animation.
+animation-timing-function :     Définit le rythme de l’animation.
+animation-delay :               Définit le délai avant le début de l’animation.
+animation-iteration-count :     Définit combien de fois l'animation doit se répéter.
+animation-direction :           Définit la direction de l’animation (normal, reverse, alternate).
+animation-fill-mode :           Définit les styles appliqués à l'élément avant et après l'animation.
+animation-play-state :          Définit si l’animation est en pause ou en cours.
+@keyframes :                    Définit les étapes de l'animation.
+
+
+
+8. Transformations
+
+transform :                 Applique des transformations 2D ou 3D à un élément (rotation, mise à l'échelle, déplacement).
+transform-origin :          Définit le point d'origine des transformations.
+transform-style :           Définit comment les éléments enfants sont rendus dans un espace 3D.
+perspective :               Définit la distance de la caméra pour les effets 3D.
+perspective-origin :        Définit le point d'origine pour la perspective 3D.
+backface-visibility :       Contrôle si la face arrière d'un élément est visible lorsqu'il est retourné.
+
+
+
+9. Responsivité (Media Queries)
+
+@media :            Applique des styles selon certaines conditions (taille de l'écran, résolution, etc.).
+min-width :         Définit la largeur minimale pour appliquer les styles.
+max-width :         Définit la largeur maximale pour appliquer les styles.
+min-height :        Définit la hauteur minimale pour appliquer les styles.
+max-height :        Définit la hauteur maximale pour appliquer les styles
